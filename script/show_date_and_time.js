@@ -9,23 +9,29 @@ $(function() {
 	if (monthNumber[month] < 10) monthNumber[month] = "0" + monthNumber[month];
 	var year = date.getFullYear();
 	var colon = ":";
-	var timeAndDate = hours + "<span class='header__span_style_blink'>" + blink() + "</span>" +
-					  minutes + " " + day + "." + monthNumber[month] + "." + year;
-	function showDateAndTime () {
-		var dateAndTimeBlock = document.getElementsByClassName("header__text_dateTime");
-		dateAndTimeBlock[0].innerHTML = timeAndDate;
-	}	
-	// Доработать мигание двоеточия			  
-	function blink() { 
-		if (colon === ":") {		
-			return colon = " ";
-		} else {
-			return colon = ":";
-		}
+	function blinkColon() {
+			if (colon === ":") {		
+				return colon = " ";
+			
+			} else {
+				return colon = ":";
 		
-	};	
-	console.log(blink());
-	
-	showDateAndTime();
-	setTimeout(showDateAndTime, 1000);
+			};
+			
+	}
+	console.log(blinkColon());
+	console.log(blinkColon());
+
+
+	var timeAndDate = hours + "<span class='header__span_style_blink'>" + colon + "</span>" +
+					  minutes + " " + day + "." + monthNumber[month] + "." + year;
+	function showDateAndTime() {
+
+		var dateAndTimeBlock = document.getElementsByClassName("header__text_dateTime");
+		blinkColon();
+		dateAndTimeBlock[0].innerHTML = timeAndDate;
+
+	}	
+showDateAndTime();
+setTimeout(showDateAndTime, 1000);
 });	
