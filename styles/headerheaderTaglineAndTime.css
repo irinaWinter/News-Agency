@@ -4,13 +4,6 @@
 	display: flex;
 	justify-content: space-between;
 }
-.blockBackground_theme_dark-blue {
-	background-color: #00122f;
-}
-.page-wrapper {
-	margin: 0 auto;
-	max-width: 1000px;
-}
 .headerTaglineAndTime__text {
 	font-family: "Arial", sans-serif;
 	color: #fff;
