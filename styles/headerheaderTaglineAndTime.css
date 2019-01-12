@@ -1,11 +1,15 @@
 .headerTaglineAndTime {
-	background-color: #00122f;
-}
-.headerTaglineAndTime__page-wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+}
+.blockBackground_theme_dark-blue {
+	background-color: #00122f;
+}
+.page-wrapper {
+	margin: 0 auto;
+	max-width: 1000px;
 }
 .headerTaglineAndTime__text {
 	font-family: "Arial", sans-serif;

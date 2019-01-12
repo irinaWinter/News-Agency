@@ -21,9 +21,10 @@ $(function() {
 		if (monthNumber[month] < 10) monthNumber[month] = "0" + monthNumber[month];
 		var year = date.getFullYear();
 
-		var timeAndDate = hours + "<span class='header__span_style_blink'>" + blinkColon() + "</span>" +
-						  minutes + " " + day + "." + monthNumber[month] + "." + year;
-		var dateAndTimeBlock = document.getElementsByClassName("header__text_dateTime");
+		var timeAndDate = hours + "<span class='headerTaglineAndTime__span_style_blink'>" +
+						  blinkColon() + "</span>" + minutes + " " + day + "." +
+						  monthNumber[month] + "." + year;
+		var dateAndTimeBlock = document.getElementsByClassName("headerTaglineAndTime__text_dateTime");
 		dateAndTimeBlock[0].innerHTML = timeAndDate;
 	}
 	showDateAndTime();
