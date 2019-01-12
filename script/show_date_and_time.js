@@ -1,37 +1,31 @@
 $(function() {	
-	var date = new Date();
-	var hours = date.getHours();
-	var minutes = date.getMinutes();
-	if (minutes < 10) minutes = "0" + minutes;
-	var day = date.getDate();
-	var month = date.getMonth();
-	var monthNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-	if (monthNumber[month] < 10) monthNumber[month] = "0" + monthNumber[month];
-	var year = date.getFullYear();
 	var colon = ":";
+
 	function blinkColon() {
-			if (colon === ":") {		
-				return colon = " ";
+		if (colon === ":") {		
+			return colon = " ";
 			
-			} else {
-				return colon = ":";
-		
-			};
-			
+		} else {
+			return colon = ":";
+		};		
 	}
-	console.log(blinkColon());
-	console.log(blinkColon());
-
-
-	var timeAndDate = hours + "<span class='header__span_style_blink'>" + colon + "</span>" +
-					  minutes + " " + day + "." + monthNumber[month] + "." + year;
+	
 	function showDateAndTime() {
+		var date = new Date();
+		var hours = date.getHours();
+		var minutes = date.getMinutes();
+		if (minutes < 10) minutes = "0" + minutes;
+		var day = date.getDate();
+		var month = date.getMonth();
+		var monthNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+		if (monthNumber[month] < 10) monthNumber[month] = "0" + monthNumber[month];
+		var year = date.getFullYear();
 
+		var timeAndDate = hours + "<span class='header__span_style_blink'>" + blinkColon() + "</span>" +
+						  minutes + " " + day + "." + monthNumber[month] + "." + year;
 		var dateAndTimeBlock = document.getElementsByClassName("header__text_dateTime");
-		blinkColon();
 		dateAndTimeBlock[0].innerHTML = timeAndDate;
-
-	}	
-showDateAndTime();
-setTimeout(showDateAndTime, 1000);
+	}
+	showDateAndTime();
+	setInterval(showDateAndTime, 500);
 });	
