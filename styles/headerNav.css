@@ -1,13 +1,1 @@
-.headerNav {
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 40px 0 35px;
-	display: flex;
-	align-items: flex-start;
-}
-body {
-	background-color: #f9f9f9;
-}
-.headerNav__img_type_weather {
-	width: 20px;
-}
+.headerNav {}
