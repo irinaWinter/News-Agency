@@ -3,11 +3,15 @@
 	margin: 0 auto;
 	padding: 40px 0 35px;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 }
-body {
-	background-color: #f9f9f9;
+.headerInfo__img_type_logo {
+	margin-right: 60px;
 }
 .headerInfo__img_type_weather {
 	width: 20px;
+	margin-left: auto;
+}
+.headerInfo__input {
+	margin-left: 50px;
 }

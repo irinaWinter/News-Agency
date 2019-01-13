@@ -1,1 +1,16 @@
-.headerNav {}
+.headerNav {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.headerNav__list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.headerNav__listItem {
+	list-style: none;
+}
+.headerNav__link {
+	text-decoration: none;
+}
