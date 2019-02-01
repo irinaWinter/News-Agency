@@ -47,22 +47,32 @@
 }
 .headerInfo__searchform {
 	position: relative;
-	box-sizing: border-box;
 }
 .headerInfo__input {
 	margin-left: 50px;
+	padding: 16px 21px 15px 21px;
 	width: 319px;
+	border: none;
+	border-radius: 20px;
 	background-color: #f3f3f3;
-	box-sizing: border-box;
+	outline: none;
+}	
+.headerInfo__input::-webkit-search-cancel-button,
+.headerInfo__input::-webkit-search-results-decoration {
+	display: none; 
 }
 .headerInfo__button {
-	box-sizing: border-box;
-	height: 100%;
-	width: 20px;
 	position: absolute;
+	height: 100%;
+	width: 36px;
+	border: none;
 	right: 0;
 	top: 0;
 	background-image: url('../img/search.svg');
 	background-repeat: no-repeat;
 	background-size: 16px;
+	background-position: 0% 50%;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
 }
