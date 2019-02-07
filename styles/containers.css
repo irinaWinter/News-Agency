@@ -13,3 +13,7 @@
 	margin: 0 auto;
 	max-width: 1000px;
 }
+.blockStyle_theme_shadow {
+	border-bottom: 2px solid #f3f3f3;
+	box-shadow: 0 5px 10px 0 #efefef;
+}
