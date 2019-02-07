@@ -17,3 +17,9 @@
 	border-bottom: 2px solid #f3f3f3;
 	box-shadow: 0 5px 10px 0 #efefef;
 }
+
+.news-agency-main {
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+}
