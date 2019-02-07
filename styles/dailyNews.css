@@ -1,4 +1,19 @@
 .dailyNews {
 	background-color: #fff;
+	box-sizing: border-box;
 	width: 250px;
+}
+
+.dailyNews__heading {
+	padding: 27px 20px 25px;
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.dailyNewsItem {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
 }
