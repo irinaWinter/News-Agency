@@ -1,12 +1,16 @@
 .dailyNews {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #fff;
 	box-sizing: border-box;
 	width: 250px;
 }
 
 .dailyNews__heading {
+	width: 100%;
 	padding: 27px 20px 25px;
 	margin: 0;
+	margin-bottom: 22px;
 	font-family: "Arial", sans-serif;
 	font-size: 20px;
 	border-bottom: 1px solid #e5e5e5;
@@ -15,5 +19,62 @@
 .dailyNewsItem {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 20px;
+	padding: 12px 20px;
+}
+.dailyNewsItem__heading {
+	margin: 0 0 17px 0;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.dailyNewsItem__rubric {
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+	color: #91919f;
+}
+.dailyNewsItem__rubric::before {
+	content: "/";
+	margin-right: 5px;
+	color: #91919f;
+}
+.dailyNewsItem__time {
+	margin: 0 ;
+	margin-left: auto;
+	padding-left: 16px;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-image: url('../img/clock.png');
+	background-size: 11px 11px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	fill: #448ccb;
+}
+.dailyNewsItem__comments {
+	margin: 0;
+	margin-left: 20px;
+	padding-left: 16px;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-image: url('../img/chat.svg');
+	background-size: 11px 11px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+.dailyNews__button {
+	margin: auto;
+	margin-top: 24px;
+	margin-bottom: 25px;
+	width: 177px;
+	height: 45px;
+	background-color: inherit;
+	outline: none;
+	border: 1px solid #448ccb;
+	border-radius: 30px;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: #448ccb;
 }
