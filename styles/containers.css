@@ -22,4 +22,5 @@
 	margin-top: 19px;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 }
