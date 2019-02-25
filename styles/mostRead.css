@@ -1,0 +1,66 @@
+.mostRead {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.mostRead__item_theme_main {
+	width: 590px;
+	padding-right: 10%;
+	background-color: pink;
+}
+.mostRead__item {
+	box-sizing: border-box;
+}
+.mostRead__heading {
+	margin: 0;
+	margin-top: 10px;
+	padding-right: 10px;
+	font-family: "Arial", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+.mostRead__heading_theme_main {
+	font-size: 30px;
+	color: #fff;
+}
+.mostRead__rubric {
+	margin: 0;
+	margin-top: 17px;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+}
+.mostRead__rubric::before {
+	content: "/";
+	margin-right: 5px;
+}
+.mostRead__rubric_theme_main {
+	color: #fff;
+	width: 100%;
+}
+.mostRead__date {
+	margin: 0;
+	margin-top: 17px;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+}
+.mostRead__date_theme_white {
+	color: #fff;
+}
+.mostRead__time {
+	margin: 0;
+	margin-left: 20px;
+	margin-top: 17px;
+	padding-left: 14px;
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+	background-image: url('../img/clock.svg');
+	fill: #4896f3;
+	background-repeat: no-repeat;
+	background-position: 0 30%;
+	background-size: 9px 9px;
+}
+.mostRead__time_theme_white {
+	color: #fff;
+}

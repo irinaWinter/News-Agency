@@ -2,6 +2,7 @@
 	width: 460px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .mainNews__item {
 	margin-bottom: 20px;
@@ -23,6 +24,7 @@
 .mainNews__heading {
 	margin: 0;
 	margin-top: 10px;
+	padding-right: 10px;
 	font-family: "Arial", sans-serif;
 	font-weight: 700;
 	font-size: 14px;
@@ -63,6 +65,7 @@
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
 	background-image: url('../img/clock.svg');
+	fill: #4896f3;
 	background-repeat: no-repeat;
 	background-position: 0 30%;
 	background-size: 9px 9px;
