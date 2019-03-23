@@ -1,0 +1,26 @@
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 60px;
+	padding-top: 20px;
+}
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 140px;
+}
+.footer__listItem {
+	list-style-type: none;
+	margin-right: 60px;
+	padding: 0;
+}
+.footer__text {
+	font-family: "Arial", sans-serif;
+	color: #fff;
+}
+.footer__text_copyright {
+	width: 100%;
+	text-align: center;
+}
