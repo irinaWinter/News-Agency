@@ -8,9 +8,9 @@
 
 .dailyNews__heading {
 	width: 100%;
-	padding: 27px 20px 25px;
+	padding: 24px 20px 22px 18px;
 	margin: 0;
-	margin-bottom: 22px;
+	margin-bottom: 31px;
 	font-family: "Arial", sans-serif;
 	font-size: 20px;
 	border-bottom: 1px solid #e5e5e5;
@@ -19,12 +19,13 @@
 .dailyNewsItem {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 12px 20px;
+	padding: 0 26px 23px 19px;
 }
 .dailyNewsItem__heading {
-	margin: 0 0 17px 0;
+	margin: 0 0 13px 0;
 	font-family: "Arial", sans-serif;
 	font-size: 14px;
+	line-height: 20px;
 	font-weight: 400;
 }
 
@@ -36,7 +37,7 @@
 }
 .dailyNewsItem__rubric::before {
 	content: "/";
-	margin-right: 5px;
+	margin-right: 2px;
 	color: #91919f;
 }
 .dailyNewsItem__time {
@@ -53,7 +54,7 @@
 	fill: #448ccb;
 }
 .dailyNewsItem__comments {
-	margin: 0;
+	margin: 0 11px 0 0;
 	margin-left: 20px;
 	padding-left: 16px;
 	font-family: "Arial", sans-serif;
@@ -66,8 +67,8 @@
 }
 .dailyNews__button {
 	margin: auto;
-	margin-top: 24px;
-	margin-bottom: 25px;
+	margin-top: 18px;
+	margin-bottom: 23px;
 	width: 177px;
 	height: 45px;
 	background-color: inherit;

@@ -1,6 +1,7 @@
 .headerTaglineAndTime {
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: 17px 0 20px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -8,6 +9,7 @@
 	font-family: "Arial", sans-serif;
 	color: #fff;
 	font-size: 16px;
+	margin: 0;
 }
 .headerTaglineAndTime__span_style_underline {
 	text-decoration: underline;

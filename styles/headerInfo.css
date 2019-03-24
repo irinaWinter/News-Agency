@@ -1,7 +1,7 @@
 .headerInfo {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 40px 0 35px;
+	padding: 33px 0 32px;
 	display: flex;
 	align-items: center;
 }
@@ -9,7 +9,7 @@
 .headerInfo__select {
 	border: none;
 	margin-left: 60px;
-	padding-right: 19px;
+	padding-right: 17px;
 	font-size: 16px;
 	font-family: "Arial", sans-serif;
 	color: #448ccb;
@@ -49,8 +49,8 @@
 	position: relative;
 }
 .headerInfo__input {
-	margin-left: 50px;
-	padding: 16px 21px 15px 21px;
+	margin-left: 46px;
+	padding: 17px 21px 15px 21px;
 	width: 319px;
 	border: none;
 	border-radius: 20px;
@@ -71,7 +71,7 @@
 	background-image: url('../img/search.svg');
 	background-repeat: no-repeat;
 	background-size: 16px;
-	background-position: 0% 50%;
+	background-position: 3% 54%;
 	background-color: transparent;
 	outline: none;
 	cursor: pointer;
