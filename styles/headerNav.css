@@ -1,4 +1,4 @@
-.headerNav {
+/*.headerNav {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding-bottom: 32px;
@@ -24,4 +24,37 @@
 	content: "/";
 	margin-left: 20px;
 	color: #e1e1e5;
+}*/
+@media screen and (min-width: 320px) {
+	.headerNav {
+		display: none;
+	}
 }
+/*	.headerNav {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding-bottom: 32px;
+		display: none;
+	}
+	.headerNav__list {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.headerNav__listItem {
+		list-style: none;
+		margin-right: 20px;
+	}
+	.headerNav__link {
+		text-decoration: none;
+		font-family: "Arial", sans-serif;
+		font-size: 15px;
+		color: #000;
+		letter-spacing: 0.1px;
+	}
+	.headerNav__link::after {
+		content: "/";
+		margin-left: 20px;
+		color: #e1e1e5;
+	}*/
