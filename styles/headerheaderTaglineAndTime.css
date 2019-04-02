@@ -1,7 +1,7 @@
 .headerTaglineAndTime {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 17px 0 20px;
+	padding: 20px 0 20px;
 	display: flex;
 	justify-content: space-between;
 }

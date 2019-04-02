@@ -16,27 +16,30 @@
 	flex-wrap: wrap;
 	width: 100%;
 	height: 320px;
-	padding: 115px 21px 42px 21px;
+	padding: 111px 21px 42px 19px;
 	background-image: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .0)), url('../img/сrimea.png');
 	background-position: center;
 	background-size: cover;
 }
 .mainNews__heading {
 	margin: 0;
-	margin-top: 8px;
+	margin-top: 5px;
+	margin-bottom: 7px;
 	padding-right: 10px;
 	font-family: "Arial", sans-serif;
 	font-weight: 700;
 	font-size: 14px;
+	line-height: 20px;
 }
 .mainNews__heading_theme_main {
+	margin: 18px 0 22px;
 	font-size: 30px;
+	line-height: 35px;
 	color: #fff;
 }
 
 .mainNews__rubric {
 	margin: 0;
-	margin-top: 17px;
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
 }
@@ -50,7 +53,6 @@
 }
 .mainNews__date {
 	margin: 0;
-	margin-top: 17px;
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
 }
@@ -59,12 +61,11 @@
 }
 .mainNews__time {
 	margin: 0;
-	margin-left: 20px;
-	margin-top: 17px;
+	margin-left: auto;
 	padding-left: 14px;
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
-	background-image: url('../img/clock.svg');
+	background-image: url('../img/clock.png');
 	fill: #4896f3;
 	background-repeat: no-repeat;
 	background-position: 0 30%;
@@ -72,12 +73,17 @@
 }
 .mainNews__time_theme_white {
 	color: #fff;
+	margin-left: 18px;
 }
 .mainNews__comments {
+	margin: 0;
+	margin-right: 55px;
+	margin-left: 19px;
 	font-family: "Arial", sans-serif;
 	font-size: 12px;
-	background-image: ('../img/clock.svg');
+	background-image: url('../img/chat.svg');
 	background-repeat: no-repeat;
 	background-position: 0 30%;
-	background-size: 9px 9px;
+	background-size: 11px 11px;
+	padding-left: 16px;
 }

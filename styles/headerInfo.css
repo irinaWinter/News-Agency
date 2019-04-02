@@ -1,7 +1,7 @@
 .headerInfo {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 33px 0 32px;
+	padding: 35px 0 32px;
 	display: flex;
 	align-items: center;
 }
@@ -37,10 +37,12 @@
 	height: 21px;
 	margin-left: auto;
 	padding-left: 39px;
+	padding-top: 3px;
+	box-sizing: border-box;
 	background-image: url('../img/cloudy.svg');
 	background-repeat: no-repeat;
 	background-position: 0% 80%;
-	background-size: 29px;
+	background-size: 30px;
 	color: #91919f;
 	font-size: 16px;
 	font-family: "Arial", sans-serif;
@@ -49,7 +51,7 @@
 	position: relative;
 }
 .headerInfo__input {
-	margin-left: 46px;
+	margin-left: 43px;
 	padding: 17px 21px 15px 21px;
 	width: 319px;
 	border: none;
