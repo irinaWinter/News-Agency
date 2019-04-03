@@ -102,6 +102,9 @@
 		align-items: flex-start;
 		box-sizing: border-box;
 	}
+	.mainNews__item:last-child {
+		margin-bottom: 50px;
+	}
 	.mainNews__img {
 		width: 100%;
 	}
