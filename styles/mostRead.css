@@ -116,12 +116,12 @@
 		background-color: #fff;
 	}
 	.mostRead__headline {
-		float: right;
-		width: 410px;
-		box-sizing: border-box;
-		margin: 0;
+		/*float: right;*/
+		/*width: 100%;*/
+		/*box-sizing: border-box;*/
+		margin: 0 25px;
 		background-color: #fff;
-		padding: 26px 20px 24px 18px;
+		padding: 26px 0 24px 0;
 		border-bottom: 1px solid #ebebeb;
 		font-family: "Arial", sans-serif;
 		font-size: 20px;
@@ -129,7 +129,7 @@
 	}
 
 	.mostRead__item {
-		width: 410px;
+		width: 100%;
 		background-color: #fff;
 		padding: 24px 21px 6px;
 		box-sizing: border-box;
@@ -137,13 +137,14 @@
 		flex-wrap: wrap;
 	}
 	.mostRead__item_theme_main {
-		float: left;
+		/*float: left;*/
 		width: 100%;
 		padding-right: 10%;
 		padding-top: 105px;
 		padding: 115px 5px 50px 25px; 
 		background-image: url('../img/beijing.jpg');
 		background-size: cover;
+		box-sizing: border-box;
 	}
 	.mostRead__heading {
 		margin: 0;
@@ -190,7 +191,7 @@
 		padding-left: 14px;
 		font-family: "Arial", sans-serif;
 		font-size: 12px;
-		background-image: url('../img/clock.png');
+		background-image: url('../img/clock.svg');
 		fill: #4896f3;
 		background-repeat: no-repeat;
 		background-position: 0 30%;
