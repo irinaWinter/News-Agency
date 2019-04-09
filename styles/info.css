@@ -26,7 +26,7 @@
 }*/
 @media screen and (min-width: 320px) {
 	.info {
-		display: none;
+		display: flex;
 		padding: 40px 25px 38px;
 		justify-content: space-between;
 	}

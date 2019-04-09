@@ -34,6 +34,7 @@
 }
 	.headerNav {
 		/*max-width: 1000px;*/
+		display: none;
 		margin: 0 auto;
 		background-color: #fff;
 		padding-bottom: 135px;

@@ -161,3 +161,8 @@
 		color: #448ccb;
 	}	
 }	
+@media screen and (min-width: 480px) {
+	.dailyNewsItem__heading {
+		width: 100%;
+	}
+}
