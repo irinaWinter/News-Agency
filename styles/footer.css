@@ -204,3 +204,103 @@
 		margin: 0 25px;
 	}
 }
+@media screen and (min-width: 1000px) {
+	.footer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 58px;
+		padding: 50px 0 0;
+	}
+	.footer__nav {
+
+	}
+
+	.footer__list {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 161px;
+	}
+	.footer__listItem {
+		list-style-type: none;
+		margin-right: 57px;
+		padding: 0;
+	}
+	.footer__text {
+		font-size: 16px;
+		font-family: "Arial", sans-serif;
+		color: #fff;
+		text-decoration: none;
+		line-height: 32px;
+	}
+	.footer__info {
+		height: 200px;
+		padding-left: 166px;
+		padding-top: 10px;
+	}
+	.footer__item {
+		box-sizing: border-box;
+		margin-top: 9px;
+		padding-left: 5px;
+	}
+	.footer__contacts {
+		display: flex;
+		flex-wrap: wrap;
+		width: 222px;
+		box-sizing: border-box;
+		justify-content: space-between;
+		align-content: flex-start;
+		padding-top: 7px;
+	}
+	.footer__logo {
+		width: 39px;
+		height: 39px;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: 20px;
+	}
+	.footer__logo_vk {
+		background-image: url('../img/vk.svg');
+	}
+	.footer__logo_fb {
+		background-image: url('../img/fb.svg');
+	}
+	.footer__logo_twitter {
+		background-image: url('../img/twitter.svg');
+	}
+	.footer__logo_inst {
+		background-image: url('../img/inst.svg');
+	}
+	.footer__text_number {
+		margin: 34px 0 13px;
+		padding-left: 35px;
+		background-image: url('../img/number.svg');
+		background-repeat: no-repeat;
+		background-size: 15px;
+		background-position: 0 50%;
+	}
+	.footer__text_email {
+		margin: 0;
+		padding-left: 35px;
+		background-image: url('../img/email.svg');
+		background-repeat: no-repeat;
+		background-size: 13px;
+		background-position: 0 50% ;
+	}
+	.copyright {
+		border-top: 1px solid #26354e;
+		padding: 17px 0 20px;
+	}
+	.copyright__text {
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		color: #8d9198;
+		text-align: center;
+		margin: 0;
+	}
+}

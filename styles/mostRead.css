@@ -219,3 +219,114 @@
 		line-height: 20px;
 	}
 }
+@media screen and (min-width: 1000px) {
+	.mostRead {
+		order: 1;
+		width: 100%;
+		display: inline-block;
+		flex-wrap: wrap;
+		background-color: #fff;
+	}
+	.mostRead__headline {
+		float: right;
+		width: 410px;
+		box-sizing: border-box;
+		margin: 0;
+		background-color: #fff;
+		padding: 26px 20px 24px 18px;
+		border-bottom: 1px solid #ebebeb;
+		font-family: "Arial", sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.mostRead__item {
+		width: 410px;
+		background-color: #fff;
+		padding: 24px 21px 6px;
+		box-sizing: border-box;
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+	.mostRead__item_theme_main {
+		float: left;
+		width: 590px;
+		padding-right: 10%;
+		padding-top: 105px;
+		padding: 105px 67px 27px 20px; 
+		background-image: url('../img/beijing.jpg');
+		background-size: cover;
+	}
+	.mostRead__heading {
+		margin: 0;
+		margin-top: 0px;
+		margin-bottom: 13px;
+		padding-right: 10px;
+		font-family: "Arial", sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.mostRead__heading_theme_main {
+		font-size: 30px;
+		color: #fff;
+		margin: 22px 0 12px 0;
+		line-height: 35px;
+	}
+	.mostRead__rubric {
+		margin: 0;
+		font-family: "Arial", sans-serif;
+		font-size: 12px;
+		color: #91919f;
+	}
+	.mostRead__rubric::before {
+		content: "/";
+		margin-right: 5px;
+	}
+	.mostRead__rubric_theme_main {
+		color: #fff;
+		width: 100%;
+	}
+	.mostRead__date {
+		margin: 0;
+		font-family: "Arial", sans-serif;
+		font-size: 12px;
+	}
+	.mostRead__date_theme_white {
+		color: #fff;
+	}
+	.mostRead__time {
+		margin: 0;
+		margin-left: 20px;
+		padding-left: 14px;
+		font-family: "Arial", sans-serif;
+		font-size: 12px;
+		background-image: url('../img/clock.png');
+		fill: #4896f3;
+		background-repeat: no-repeat;
+		background-position: 0 30%;
+		background-size: 9px 9px;
+	}
+	.mostRead__comments {
+		margin: 0;
+		margin-left: 20px;
+		padding-left: 14px;
+		font-family: "Arial", sans-serif;
+		font-size: 12px;
+		background-image: url('../img/chat.svg');
+		fill: #4896f3;
+		background-repeat: no-repeat;
+		background-position: 0 30%;
+		background-size: 9px 9px;
+	}
+	.mostRead__time_theme_white {
+		color: #fff;
+	}
+	.mostRead__lead {
+		margin-top: 22px;
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		color: #fff;
+		line-height: 20px;
+	}
+}
