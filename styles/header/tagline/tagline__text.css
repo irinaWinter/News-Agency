@@ -1,0 +1,11 @@
+/*@media screen and (min-width: 320px) {*/
+	.tagline__text {
+		font-family: "Arial", sans-serif;
+		color: #fff;
+		font-size: 13px;
+		margin: 0 auto;
+	}
+	.tagline__text_dateTime {
+		display: none;
+	}
+/*}*/

@@ -1,6 +1,8 @@
 .news-agency {
 	margin: 0;
 	background-color: #f9f9f9;
+	min-width: 320;
+	
 }
 
 .blockBackground_theme_dark-blue {

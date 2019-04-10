@@ -1,5 +1,8 @@
 @import "containers.css";
-@import "headerheaderTaglineAndTime.css";
+/*@import "headerheaderTaglineAndTime.css";*/
+@import "header/tagline/tagline.css";
+	@import "header/tagline/tagline__text.css";
+	@import "header/tagline/tagline__span.css";
 @import "headerInfo.css";
 @import "headerNav.css";
 @import "burger.css";
