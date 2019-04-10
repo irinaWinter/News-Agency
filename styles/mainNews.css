@@ -216,3 +216,13 @@
 		margin-right: 0;
 	}
 } 
+@media screen and (min-width: 768px) {
+	.mainNews__top {
+		height: 380px;
+		padding: 215px 25px 30px;
+	}
+	.mainNews__heading_theme_main {
+		font-size: 28px;
+		line-height: 34px;
+	}
+}
