@@ -79,7 +79,7 @@
 	cursor: pointer;
 }*/
 @media screen and (min-width: 320px) {
-	.headerInfo {
+	.info {
 		margin: 0 auto;
 		padding: 13px 25px;
 		display: flex;
@@ -88,12 +88,12 @@
 		background-color: #fff;
 
 	}
-	.headerInfo__theme_menu {
+	.info__theme_menu {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
-	.headerInfo__logo {
+	.info__logo {
 		font-size: 14px;
 		font-weight: bold;
 		font-family: "Arial", sans-serif;
@@ -104,19 +104,19 @@
 		background-size: 24px;
 	}
 
-	.headerInfo__select {
+	.info__select {
 		display: none;
 	}
-	.headerInfo__select::-ms-expand {
+	.info__select::-ms-expand {
 		display: none;
 	}
-	.headerInfo__text_type_temp {
+	.info__text_type_temp {
 		display: none;
 	}
-	.headerInfo__searchform {
+	.info__searchform {
 		position: relative;
 	}
-	.headerInfo__input {
+	.info__input {
 		margin-left: 43px;
 		padding: 17px 21px 15px 21px;
 		width: 319px;
@@ -126,11 +126,11 @@
 		outline: none;
 		display: none;
 	}	
-	.headerInfo__input::-webkit-search-cancel-button,
-	.headerInfo__input::-webkit-search-results-decoration {
+	.info__input::-webkit-search-cancel-button,
+	.info__input::-webkit-search-results-decoration {
 		display: none; 
 	}
-	.headerInfo__button {
+	.info__button {
 
 		width: 16px;
 		height: 16px;
@@ -190,7 +190,7 @@
 	}
 */
 @media screen and (min-width: 1000px) {
-	.headerInfo {
+	.info {
 		max-width: 1000px;
 		margin: 0 auto;
 		padding: 35px 0 32px;
@@ -198,7 +198,7 @@
 		align-items: center;
 	}
 
-	.headerInfo__select {
+	.info__select {
 		border: none;
 		margin-left: 60px;
 		padding-right: 17px;
@@ -216,16 +216,16 @@
 		text-decoration-style: dashed;
 		text-underline-position: under;
 	}
-	.headerInfo__select::-ms-expand {
+	.info__select::-ms-expand {
 		display: none;
 	}
-	.headerInfo__select:focus {  
+	.info__select:focus {  
 		outline: none;
 	}
-	.headerInfo__option {
+	.info__option {
 		color: #000;
 	}
-	.headerInfo__text_type_temp {
+	.info__text_type_temp {
 		height: 21px;
 		margin-left: auto;
 		padding-left: 39px;
@@ -239,10 +239,10 @@
 		font-size: 16px;
 		font-family: "Arial", sans-serif;
 	}
-	.headerInfo__searchform {
+	.info__searchform {
 		position: relative;
 	}
-	.headerInfo__input {
+	.info__input {
 		margin-left: 43px;
 		padding: 17px 21px 15px 21px;
 		width: 319px;
@@ -251,11 +251,11 @@
 		background-color: #f3f3f3;
 		outline: none;
 	}	
-	.headerInfo__input::-webkit-search-cancel-button,
-	.headerInfo__input::-webkit-search-results-decoration {
+	.info__input::-webkit-search-cancel-button,
+	.info__input::-webkit-search-results-decoration {
 		display: none; 
 	}
-	.headerInfo__button {
+	.info__button {
 		position: absolute;
 		height: 100%;
 		width: 36px;

@@ -10,11 +10,5 @@
 	.tagline {
 		padding: 19px 0px;
 	}
-	.wrap {
-		max-width: 1000px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-	}
 }
 
