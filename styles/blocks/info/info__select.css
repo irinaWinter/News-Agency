@@ -31,4 +31,7 @@
 	.info__select:focus {  
 		outline: none;
 	}
+	.info__option {
+		color: #000;
+	}
 }	
