@@ -22,3 +22,8 @@
 .Hamburger__line:last-child {
 	bottom: 0;
 }
+@media screen and (min-width: 1000px) {
+	.Hamburger {
+		display: none;
+	}
+}

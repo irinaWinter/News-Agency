@@ -1,16 +1,22 @@
 @import "containers.css";
 @import "containers/indent.css";
-@import "blocks/burger.css";
-
+@import "blocks/Hamburger/burger.css";
+@import "blocks/calendar/calendar.css";
+@import "blocks/calendar/calendar__text.css";
 
 @import "text_styles/underline.css";
 
 /*@import "headerheaderTaglineAndTime.css";*/
-@import "header/tagline/tagline.css";
+@import "blocks/tagline/tagline.css";
 
-	@import "header/tagline/tagline__text.css";
-	@import "header/tagline/tagline__span.css";
-@import "headerInfo.css";
+	@import "blocks/tagline/tagline__text.css";
+	@import "blocks/tagline/tagline__span.css";
+
+@import "blocks/info/info.css";
+
+@import "blocks/search/search.css";
+
+
 @import "headerNav.css";
 @import "burger.css";
 @import "dailyNews.css";

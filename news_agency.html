@@ -10,6 +10,7 @@
 </head>
 <body class="news-agency">
 
+<!-- Слоган -->
 	<header class="tagline">
 		<div class="indent">
 			<p class="tagline__text tagline__text_slogan">Самые <span class="underline">свежие новости</span> в реальном времени</p>
@@ -17,7 +18,7 @@
 		</div>
 	</header>
 	
-	
+<!-- Информационный блок -->
 	<header class="info">
 		<div class="Hamburger">
 			<span class="Hamburger__line"></span>
@@ -28,31 +29,36 @@
 		<select class="info__select">
 			<option class="info__option">Москва</option>
 		</select>
-		<p class="info__text info__text_type_temp">+22 &deg;С</p>
-		<form class="info__searchform">	
-			<input class="info__input" type="search" placeholder="Поиск по сайту" name="search">
-			<button class="info__button"></button>
+		<p class="info__text info__text_temp">+22 &deg;С</p>
+		<form class="search">	
+			<input class="search__input" type="search" placeholder="Поиск по сайту" name="search">
+			<button class="search__button"></button>
 		</form>
 	</header>
-		
-		<header class="headerNav">
-			<nav class="headerNav__nav">
-				<ul class="headerNav__list">
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Главная</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Политика</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Общество</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Экономика</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">В мире</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Происшествия</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Спорт</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Наука</a></li>
-					<li class="headerNav__listItem"><a class="headerNav__link" href="#">Туризм</a></li>
-				</ul>
-			</nav>
-		</header>
-	<header class="info">
-		<p class="info__text info__text_date">19 июня, Вт</p> <p class="info__text info__text_time">10:48</p><p class="info__text info__text_weather">+22C&deg;</p>
+	
+<!-- Навигация -->
+	<header class="headerNav">
+		<nav class="headerNav__nav">
+			<ul class="headerNav__list">
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Главная</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Политика</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Общество</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Экономика</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">В мире</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Происшествия</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Спорт</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Наука</a></li>
+				<li class="headerNav__listItem"><a class="headerNav__link" href="#">Туризм</a></li>
+			</ul>
+		</nav>
 	</header>
+
+<!-- Дата, время, погда для мобильных устройств -->
+	<header class="calendar">
+		<p class="calendar__text calendar__text_date">19 июня, Вт</p> <p class="calendar__text calendar__text_time">10:48</p><p class="calendar__text calendar__text_weather">+22C&deg;</p>
+	</header>
+
+<!-- ОСНОВНАЯ ИНФОРМАЦИЯ -->
 	<main class="news-agency-main page-wrapper">
 		<div class="dailyNews">
 			<h2 class="dailyNews__heading">Новости дня</h2>
