@@ -13,6 +13,10 @@
 	@import "blocks/tagline/tagline__span.css";
 
 @import "blocks/info/info.css";
+@import "blocks/info/info__logo.css";
+@import "blocks/info/info__select.css";
+
+@import "blocks/logo/logo.css";
 
 @import "blocks/search/search.css";
 
