@@ -24,7 +24,9 @@
 @import "blocks/search/search__button.css";
 
 
-@import "headerNav.css";
+@import "blocks/menu/menu.css";
+
+
 @import "burger.css";
 @import "dailyNews.css";
 @import "mainNews.css";
