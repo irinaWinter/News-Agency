@@ -20,6 +20,8 @@
 @import "blocks/logo/logo.css";
 
 @import "blocks/search/search.css";
+@import "blocks/search/search__input.css";
+@import "blocks/search/search__button.css";
 
 
 @import "headerNav.css";

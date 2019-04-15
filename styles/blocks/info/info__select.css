@@ -8,13 +8,14 @@
 }
 @media screen and (min-width: 1000px) {
 	.info__select {
+		display: block;
 		border: none;
-		margin-left: 60px;
+		/*margin-left: 60px;*/
 		padding-right: 17px;
 		font-size: 16px;
 		font-family: "Arial", sans-serif;
 		color: #448ccb;
-		background-image: url('../img/down-arrow.svg');
+		background-image: url('../../../img/down-arrow.svg');
 		background-repeat: no-repeat;
 		background-position: 100% 50%;
 		background-size: 9px;

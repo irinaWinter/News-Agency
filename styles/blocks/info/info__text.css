@@ -5,12 +5,13 @@
 }
 @media screen and (min-width: 1000px) {
 	.info__text_temp {
+		display: block;
 		height: 21px;
 		margin-left: auto;
 		padding-left: 39px;
 		padding-top: 3px;
 		box-sizing: border-box;
-		background-image: url('../img/cloudy.svg');
+		background-image: url('../../../img/cloudy.svg');
 		background-repeat: no-repeat;
 		background-position: 0% 80%;
 		background-size: 30px;

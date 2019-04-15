@@ -8,5 +8,13 @@
 		background-image: url('../../../img/logo.png');
 		background-repeat: no-repeat;
 		background-size: 24px;
+		background-position: 0 50%
+	}
+}	
+@media screen and (min-width: 1000px) {	
+	.logo {
+		width: 120px;
+		padding: 5px 0 0 34px;
+		background-position: 0 50%;
 	}
 }	
