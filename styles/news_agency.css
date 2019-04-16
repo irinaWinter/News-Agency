@@ -25,6 +25,9 @@
 
 
 @import "blocks/menu/menu.css";
+@import "blocks/menu/menu__list.css";
+@import "blocks/menu/menu__listItem.css";
+@import "blocks/menu/menu__link.css";
 
 
 @import "burger.css";
