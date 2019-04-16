@@ -13,21 +13,14 @@
 	background-color: #fff;
 }
 
-.page-wrapper {
-	margin: 0 auto;
-	max-width: 1000px;
-}
 .blockStyle_theme_shadow {
 	border-bottom: 2px solid #f3f3f3;
 	box-shadow: 0 5px 10px 0 #efefef;
 }
 
-.news-agency-main {
-	/*margin-top: 19px;*/
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	flex-wrap: wrap;
+.main {
+	margin-top: 20px;
+
 }
 .hide {
 	display: none;

@@ -30,8 +30,9 @@
 @import "blocks/menu/menu__link.css";
 
 
-@import "burger.css";
-@import "dailyNews.css";
+@import "blocks/dailyNews/dailyNews.css";
+
+
 @import "mainNews.css";
 @import "advertising.css";
 @import "mostRead.css";
