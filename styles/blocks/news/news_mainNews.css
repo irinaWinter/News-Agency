@@ -1,0 +1,23 @@
+@media screen and (min-width: 320px) {
+	.news_mainNews {
+		margin-bottom: 29px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		box-sizing: border-box;
+	}
+	.news_mainNews:last-child {
+		margin-bottom: 50px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.news__mainNews {
+		margin-bottom: 20px;
+		width: 220px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		box-sizing: border-box;
+	}
+}

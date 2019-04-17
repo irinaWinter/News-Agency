@@ -36,16 +36,26 @@
 
 
 @import "blocks/news/news.css";
-@import "blocks/news/news__comments.css";
 @import "blocks/news/news__heading.css";
+@import "blocks/news/news__heading_main.css";
+@import "blocks/news/news__heading_mainNews.css";
 @import "blocks/news/news__rubric.css";
+@import "blocks/news/news__rubric_main.css";
 @import "blocks/news/news__time.css";
+@import "blocks/news/news__time_main.css";
+@import "blocks/news/news__comments.css";
+@import "blocks/news/news__date.css";
+@import "blocks/news/news__date_main.css";
+@import "blocks/news/news__img.css";
+@import "blocks/news/news_main.css";
+@import "blocks/news/news_mainNews.css";
 
 
 
+@import "blocks/mainNews/mainNews.css";
 
 
-@import "mainNews.css";
+
 @import "advertising.css";
 @import "mostRead.css";
 @import "footer.css";

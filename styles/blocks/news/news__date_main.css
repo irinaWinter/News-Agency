@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) {
+	.news__date_main {
+		color: #fff;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.news__date_main {
+		color: #fff;
+	}
+}
