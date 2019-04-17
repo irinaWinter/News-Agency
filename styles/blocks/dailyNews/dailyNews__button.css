@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px) {
+	.dailyNews__button {
+		margin: 16px 25px 50px;
+		width: 100%;
+		height: 45px;
+		background-color: inherit;
+		outline: none;
+		border: 1px solid #448ccb;
+		border-radius: 30px;
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		color: #448ccb;
+	}	
+}
+@media screen and (min-width: 1000px) {
+	.dailyNews__button {
+		margin: auto;
+		margin-top: 40px;
+		width: 177px;
+		height: 45px;
+		background-color: inherit;
+		outline: none;
+		border: 1px solid #448ccb;
+		border-radius: 30px;
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		color: #448ccb;
+	}
+}

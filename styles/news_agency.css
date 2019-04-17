@@ -31,6 +31,18 @@
 
 
 @import "blocks/dailyNews/dailyNews.css";
+@import "blocks/dailyNews/dailyNews__button.css";
+@import "blocks/dailyNews/dailyNews__heading.css";
+
+
+@import "blocks/news/news.css";
+@import "blocks/news/news__comments.css";
+@import "blocks/news/news__heading.css";
+@import "blocks/news/news__rubric.css";
+@import "blocks/news/news__time.css";
+
+
+
 
 
 @import "mainNews.css";

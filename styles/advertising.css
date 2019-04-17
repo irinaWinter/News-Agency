@@ -9,7 +9,7 @@
 }*/
 @media screen and (min-width: 320px) {
 	.advertising {
-		order: 1;
+
 		width: 250px;
 		display: flex;
 		padding: 0 25px;
@@ -28,7 +28,7 @@
 }
 @media screen and (min-width: 1000px) {
 	.advertising {
-		order: 1;
+
 		width: 250px;
 		display: flex;
 		flex-wrap: wrap;

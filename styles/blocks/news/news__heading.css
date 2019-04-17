@@ -1,0 +1,12 @@
+@media screen and (min-width: 320px) {
+	.news__heading {
+		margin: 0 0 13px 0;
+		font-family: "Arial", sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 400;
+	}
+}
+@media screen and (min-width: 1000px) {
+
+}
