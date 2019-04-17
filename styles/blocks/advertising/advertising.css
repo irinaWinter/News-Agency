@@ -1,0 +1,9 @@
+@media screen and (min-width: 320px) {
+	.advertising {
+		align-self: flex-start;
+		width: 250px;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

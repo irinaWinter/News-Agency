@@ -55,7 +55,8 @@
 @import "blocks/mainNews/mainNews.css";
 
 
+@import "blocks/advertising/advertising.css";
+@import "blocks/advertising/advertising__item.css";
 
-@import "advertising.css";
 @import "mostRead.css";
 @import "footer.css";
