@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) {
+	.newsBlock_dailyNews {
+		background-color: #fff;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.newsBlock_dailyNews {
+		width: 250px;
+		padding-bottom: 25px;
+	}
+}

@@ -67,8 +67,8 @@
 		<div class="indent">
 
 		<!-- Новости дня -->
-			<div class="dailyNews">
-				<h2 class="dailyNews__heading">Новости дня</h2>
+			<div class="newsBlock newsBlock_dailyNews">
+				<h2 class="newsBlock__heading newsBlock__heading_dailyNews">Новости дня</h2>
 				<section class="news">
 					<h3 class="news__heading">Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018</h3>
 					<p class="news__rubric">ЧМ по футболу</p>
@@ -105,12 +105,12 @@
 					<p class="news__time">10:48</p>
 					<p class="news__comments">15</p>
 				</section>
-				<button class="dailyNews__button">Все новости</button>
+				<button class="newsBlock__button">Все новости</button>
 			</div>
 
 		<!-- Главные новости -->
-			<div class="mainNews">
-				<section class="news news_main">
+			<div class="newsBlock newsBlock_mainNews">
+				<section class="news news_main news_main_mainNews">
 					<p class="news__rubric news__rubric_main">Политика</p>
 					<h3 class="news__heading news__heading_main">В Крыму отреагировали на&nbsp;слова Кравчука о&nbsp;возврате полуострова</h3>
 					<p class="news__date news__date_main">19 Июня 2018</p>
@@ -148,79 +148,77 @@
 
 		<!-- Рекламный блок -->
 			<aside class="advertising">
-				<img class="advertising__item" src="img/lexus.jpg">
-				<img class="advertising__item" src="img/man.jpg">
+				<a href="#" class="advertising__item"></a>
+				<a href="#" class="advertising__item"></a>
 			</aside>
 
 		<!-- Самые читаемые новости -->
-			<div class="mostRead">
-				<section class="mostRead__item mostRead__item_theme_main">
-					<p class="mostRead__rubric mostRead__rubric_theme_main">Политика</p>
-					<h3 class="mostRead__heading mostRead__heading_theme_main">Пекин обвинил Вашингтон в&nbsp;развязывании торговой войны</h3>
-					<p class="mostRead__date mostRead__date_theme_white">19 Июня 2018</p>
-					<p class="mostRead__time mostRead__time_theme_white">10:48</p>
-					<p class="mostRead__lead">Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары</p>
+			<div class="newsBlock newsBlock_mostRead">
+				<section class="news news_main news_main_mostRead">
+					<p class="news__rubric news__rubric_main">Политика</p>
+					<h3 class="news__heading news__heading_main">Пекин обвинил Вашингтон в&nbsp;развязывании торговой войны</h3>
+					<p class="news__date news__date_main">19 Июня 2018</p>
+					<p class="news__time news__time_main">10:48</p>
+					<p class="news__lead">Министерство коммерции Китая заявило, что Пекин примет «качественные» и «количественные» меры, если президент США Дональд Трамп введет дополнительные пошлины на китайские товары</p>
 				</section>
-				<h2 class="mostRead__headline">Самые читаемые новости</h2>
-				<section class="mostRead__item">
-					<h3 class="mostRead__heading">В турции пообещали найти альтернативу из-за&nbsp;отказа США поставить F-35</h3>
-					<p class="mostRead__rubric">Политика</p>
-					<p class="mostRead__time">11:39</p>
-					<p class="mostRead__comments">25</p>
+				<h2 class="newsBlock__heading newsBlock__heading_mostRead">Самые читаемые новости</h2>
+				<section class="news">
+					<h3 class="news__heading news__heading_mostRead">В турции пообещали найти альтернативу из-за&nbsp;отказа США поставить F-35</h3>
+					<p class="news__rubric">Политика</p>
+					<p class="news__time">11:39</p>
+					<p class="news__comments">25</p>
 				</section>
-				<section class="mostRead__item">
-					<h3 class="mostRead__heading">Назван минимальный доход для причисления к среднему классу‍</h3>
-					<p class="mostRead__rubric">Политика</p>
-					<p class="mostRead__time">11:39</p>
-					<p class="mostRead__comments">25</p>
+				<section class="news">
+					<h3 class="news__heading news__heading_mostRead">Назван минимальный доход для причисления к среднему классу‍</h3>
+					<p class="news__rubric">Политика</p>
+					<p class="news__time">11:39</p>
+					<p class="news__comments">25</p>
 				</section>
-				<section class="mostRead__item">
-					<h3 class="mostRead__heading">Назван минимальный доход для причисления к среднему классу‍</h3>
-					<p class="mostRead__rubric">Политика</p>
-					<p class="mostRead__time">11:39</p>
-					<p class="mostRead__comments">25</p>
+				<section class="news">
+					<h3 class="news__heading news__heading_mostRead">Назван минимальный доход для причисления к среднему классу‍</h3>
+					<p class="news__rubric">Политика</p>
+					<p class="news__time">11:39</p>
+					<p class="news__comments">25</p>
 				</section>
 			</div>
 		</div>	
-	</main>	
-	<div class="blockBackground_theme_dark-blue">
+	</main>
 
-			<footer class="footer page-wrapper">
-				<nav class="footer__nav">
-					<ul class="footer__list">
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Главная</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Политика</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Общество</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Экономика</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">В мире</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Путешествия</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Спорт</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Наука</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Туризм</a></li>
-					</ul>
-				</nav>
-				<div class="footer__info">
-					<a href=""><img class="footer__logo_na" src="img/logo_white.png"></a>
-					<nav class="footer__item">
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Об агентстве</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Контакты</a></li>
-						<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Опубликовать новость</a></li>
-					</nav>
-				</div>
-				<div class="footer__contacts">
-					<a href="#" class="footer__logo footer__logo_vk"></a>
-					<a href="#" class="footer__logo footer__logo_fb"></a>
-					<a href="#" class="footer__logo footer__logo_twitter"></a>
-					<a href="#" class="footer__logo footer__logo_inst"></a>
-					<p class="footer__text footer__text_number">+7 (499) 995-55-55</p>
-					<p class="footer__text footer__text_email">info@agency.ru</p>
-				</div>
-			</footer>
-			<footer class="copyright">
-				<p class="copyright__text">&copy; Новостное агентство, 2017&ndash;2019 все&nbsp;права&nbsp;защищены</p>
-			</footer>			
+	<footer class="footer">
+		<nav class="menu">
+			<ul class="footer__list">
+				<li class="footer__listItem"><a href="#" class="ffooter__text_link">Главная</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Политика</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Общество</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Экономика</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">В мире</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Путешествия</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Спорт</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Наука</a></li>
+				<li class="footer__listItem"><a href="#" class="footer__text footer__text_link">Туризм</a></li>
+			</ul>
+		</nav>
+		<div class="about">
+			<p class="logo">Новостное агентство</p>
+			<nav class="about__nav">
+				<li class="about__li"><a href="#" class="about__link">Об агентстве</a></li>
+				<li class="about__li"><a href="#" class="about__link">Контакты</a></li>
+				<li class="about__li"><a href="#" class="about__link">Опубликовать новость</a></li>
+			</nav>
+		</div>
+		<div class="contacts">
+			<a href="#" class="contacts__logo contacts__logo_vk"></a>
+			<a href="#" class="contacts__logo contacts__logo_fb"></a>
+			<a href="#" class="contacts__logo contacts__logo_twitter"></a>
+			<a href="#" class="contacts__logo contacts__logo_inst"></a>
+			<p class="contacts__item contacts__item_number">+7 (499) 995-55-55</p>
+			<p class="contacts__item contacts__item_email">info@agency.ru</p>
+		</div>
+	</footer>
+	<footer class="copyright">
+		<p class="copyright__text">&copy; Новостное агентство, 2017&ndash;2019 все&nbsp;права&nbsp;защищены</p>
+	</footer>			
 
-	</div>
 	
 
 </body>

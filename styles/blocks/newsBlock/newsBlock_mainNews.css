@@ -1,15 +1,12 @@
 @media screen and (min-width: 320px) {
-	.mainNews {
+	.newsBlock_mainNews {
 		width: 460px;
 		box-sizing: border-box;
-		display: flex;
-		flex-wrap: wrap;
 		justify-content: space-between;
-		align-self: flex-start;
 	}
 }
 @media screen and (min-width: 1000px) {
-	.mainNews {
-		width: 460px;
+	.newsBlock_mainNews {
+
 	}
 }

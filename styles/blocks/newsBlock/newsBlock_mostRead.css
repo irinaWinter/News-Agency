@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) {
+	.newsBlock_mostRead {
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-size: auto 140px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.newsBlock_mostRead {
+		width: 100%;
+		display: inline-block;
+		flex-wrap: wrap;
+	}
+}

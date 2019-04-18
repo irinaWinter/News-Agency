@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) {
-	.dailyNews__button {
+	.newsBlock__button {
 		margin: 16px 25px 50px;
 		width: 100%;
 		height: 45px;
@@ -13,7 +13,7 @@
 	}	
 }
 @media screen and (min-width: 1000px) {
-	.dailyNews__button {
+	.newsBlock__button {
 		margin: auto;
 		margin-top: 40px;
 		width: 177px;

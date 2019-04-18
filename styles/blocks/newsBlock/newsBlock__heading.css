@@ -1,6 +1,5 @@
 @media screen and (min-width: 320px) {
-	.dailyNews__heading {
-		width: 100%;
+	.newsBlock__heading {
 		padding: 39px 25px 22px 0;
 		margin: 0;
 		font-family: "Arial", sans-serif;
@@ -9,7 +8,8 @@
 	}
 }
 @media screen and (min-width: 1000px) {
-	.dailyNews__heading {
+	.newsBlock__heading {
 		padding: 24px 20px 22px 18px;
 	}
 }
+
