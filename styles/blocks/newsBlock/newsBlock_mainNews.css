@@ -5,6 +5,7 @@
 }
 @media screen and (min-width: 1000px) {
 	.newsBlock_mainNews {
+		order: 0;
 		width: 460px;
 		box-sizing: border-box;
 		justify-content: space-between;

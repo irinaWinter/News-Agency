@@ -2,20 +2,19 @@
 	.news_mainNews {
 		width: 100%;
 		box-sizing: border-box;
-		padding: 140px 10px 0 0;
+		margin-bottom: 20px;
+		/*padding: 215px 25px 0 ;*/
+		padding: 0 25px;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
-
-		background-image: url('../../../img/1.jpg');
-		background-repeat: no-repeat;
-		background-size: auto 140px;
-
 	}
 }
 @media screen and (min-width: 1000px) {
 	.news_mainNews {
-		margin-top: 20px;
 		width: 220px;
+		background-size: auto 140px;
+		/*padding: 140px 10px 0 0;*/
+		padding: 0 10px;
 	}
 }
