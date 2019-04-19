@@ -1,12 +1,13 @@
 @media screen and (min-width: 320px) {
-	.newsBlock_mainNews {
-		order: 0;
+	.footer {
+		padding: 60px 0 0;
+		background-color: #00122f;
 	}
 }
 @media screen and (min-width: 1000px) {
-	.newsBlock_mainNews {
-		width: 460px;
-		box-sizing: border-box;
+	.footer {
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 }

@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) {
+	.menu_footer {
+		align-self: flex-start;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.menu_footer:nth-child(2) {
+		margin-left: auto;
+		margin-right: 60px;
+	}
+}

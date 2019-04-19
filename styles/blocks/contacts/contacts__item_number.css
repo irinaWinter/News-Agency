@@ -1,0 +1,9 @@
+@media screen and (min-width: 320px) {
+	.contacts__item_number {
+		background-image: url('../../../img/number.svg');
+	}
+}
+@media screen and (min-width: 1000px) {
+	.contacts__item_number {
+	}
+}

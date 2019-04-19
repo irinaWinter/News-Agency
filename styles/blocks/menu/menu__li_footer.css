@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) {
+	.menu__li_footer {
+		color: #fff;
+		margin-bottom: 17px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.menu__li_footer {
+		margin-right: 60px;
+/*		list-style-type: none;
+		margin-right: 57px;
+		padding: 0;*/
+	}
+}

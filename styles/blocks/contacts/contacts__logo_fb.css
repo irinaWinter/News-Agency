@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) {
+	.contacts__logo_fb {
+		background-image: url('../../../img/fb.svg');
+	}
+}
+@media screen and (min-width: 1000px) {
+	.contacts__logo_fb {
+
+	}
+}

@@ -17,6 +17,8 @@
 @import "blocks/info/info__text.css";
 
 @import "blocks/logo/logo.css";
+@import "blocks/logo/logo_header.css";
+@import "blocks/logo/logo_footer.css";
 
 @import "blocks/search/search.css";
 @import "blocks/search/search__input.css";
@@ -24,9 +26,18 @@
 
 
 @import "blocks/menu/menu.css";
+@import "blocks/menu/menu_footer.css";
+@import "blocks/menu/menu_header.css";
 @import "blocks/menu/menu__list.css";
-@import "blocks/menu/menu__listItem.css";
+@import "blocks/menu/menu__list_footer.css";
+@import "blocks/menu/menu__list_header.css";
+@import "blocks/menu/menu__li.css";
+@import "blocks/menu/menu__li_footer.css";
+@import "blocks/menu/menu__li_header.css";
 @import "blocks/menu/menu__link.css";
+@import "blocks/menu/menu__link_footer.css";
+@import "blocks/menu/menu__link_header.css";
+
 
 
 @import "blocks/newsBlock/newsBlock.css";
@@ -67,5 +78,22 @@
 @import "blocks/advertising/advertising.css";
 @import "blocks/advertising/advertising__item.css";
 
-@import "mostRead.css";
-@import "footer.css";
+
+
+@import "blocks/footer/footer.css";
+@import "blocks/footer/footer__copyright.css";
+@import "blocks/footer/footer_copyright.css";
+
+
+@import "blocks/contacts/contacts.css";
+@import "blocks/contacts/contacts__item.css";
+@import "blocks/contacts/contacts__item_email.css";
+@import "blocks/contacts/contacts__item_number.css";
+@import "blocks/contacts/contacts__logo.css";
+@import "blocks/contacts/contacts__logo_inst.css";
+@import "blocks/contacts/contacts__logo_twitter.css";
+@import "blocks/contacts/contacts__logo_fb.css";
+@import "blocks/contacts/contacts__logo_vk.css";
+
+
+

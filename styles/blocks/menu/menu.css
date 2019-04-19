@@ -1,16 +1,5 @@
 @media screen and (min-width: 320px) {
 	.menu {
-		display: none;
-		margin: 0 auto;
-		background-color: #fff;
-		padding-bottom: 135px;
+
 	}
 }	
-@media screen and (min-width: 1000px) {
-	.menu {
-		display: block;
-		padding-bottom: 32px;
-		border-bottom: 2px solid #f3f3f3;
-		box-shadow: 0 5px 10px -2px #efefef;
-	}	
-}

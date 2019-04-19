@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) {
+	.contacts__logo_inst {
+		background-image: url('../../../img/inst.svg');
+	}
+}
+@media screen and (min-width: 1000px) {
+	.contacts__logo_inst {
+
+	}
+}
