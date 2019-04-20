@@ -1,7 +1,8 @@
 @media screen and (min-width: 320px) {
 	.news__heading_mainNews {
-		margin: 0;
-		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 25px;
 		/*padding: 15px 22px 13px 25px;*/
 		font-family: "Arial", sans-serif;
 		font-weight: 700;
@@ -11,6 +12,6 @@
 }
 @media screen and (min-width: 1000px) {
 	.news__heading_mainNews {
-		margin: 10px 0 20px;
+		padding: 0;
 	}
 }

@@ -3,8 +3,9 @@
 		width: 100%;
 		box-sizing: border-box;
 		margin-bottom: 20px;
+		padding: 0;
 		/*padding: 215px 25px 0 ;*/
-		padding: 0 25px;
+		/*padding: 0 25px;*/
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
@@ -15,6 +16,6 @@
 		width: 220px;
 		background-size: auto 140px;
 		/*padding: 140px 10px 0 0;*/
-		padding: 0 10px;
+		/*padding: 0 10px;*/
 	}
 }
