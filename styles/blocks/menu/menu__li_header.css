@@ -2,13 +2,30 @@
 	.menu__li_header {
 /*		list-style-type: none;
 		margin-right: 20px;
-		margin-bottom: 12px;
-		width: 100px;
-		padding: 0;
+		margin-bottom: 12px;*/
+		/*width: 100%;*/
+/*		padding: 0;
 		color: #fff;*/
+		padding: 10px 0;
+		margin: 0 25px;
+		border-bottom: 1px solid #ebebeb;
+	}
+	.menu__li_header:first-child {
+		padding-top: 20px;
+	}
+	.menu__li_header:last-child  {
+		border-bottom: none;
 	}
 }
 @media screen and (min-width: 1000px) {
+	.menu__li_header {
+		padding: 0;
+		margin: 0 20px 0 0;
+		border-bottom: none;
+	}
+	.menu__li_header:first-child {
+		padding-top: 0;
+	}
 	.menu__li_header::after {
 		content: "/";
 		margin-left: 20px;

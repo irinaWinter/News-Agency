@@ -1,9 +1,6 @@
 @media screen and (min-width: 320px) {
 	.menu_header {
-		margin: 0 auto;
-		padding-bottom: 135px;
-		display: none;
-		background-color: #fff;
+		display: block;
 	}	
 }
 @media screen and (min-width: 1000px) {
@@ -12,6 +9,7 @@
 		padding-bottom: 32px;
 		margin-bottom: 20px;
 		border-bottom: 2px solid #f3f3f3;
+		background-color: #fff;
 		box-shadow: 0 5px 10px -2px #efefef;
 	}	
 }

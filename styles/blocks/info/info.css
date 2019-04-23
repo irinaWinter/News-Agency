@@ -2,17 +2,18 @@
 	.info {
 		min-width: 300px;
 		box-sizing: border-box;
-		margin: 0 auto;
 		padding: 13px 25px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		background-color: #fff;
+		box-shadow: 0 5px 10px -2px #efefef;
 	}
 }
 @media screen and (min-width: 1000px) {
 	.info {
 		margin: 0;
 		padding: 35px 0 32px;
+		box-shadow: none;
 	}
 }

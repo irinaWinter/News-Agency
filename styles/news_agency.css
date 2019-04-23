@@ -28,6 +28,7 @@
 @import "blocks/menu/menu.css";
 @import "blocks/menu/menu_footer.css";
 @import "blocks/menu/menu_header.css";
+@import "blocks/menu/menu__nav_header.css";
 @import "blocks/menu/menu__list.css";
 @import "blocks/menu/menu__list_footer.css";
 @import "blocks/menu/menu__list_header.css";
