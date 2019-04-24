@@ -10,6 +10,9 @@
 		background-size: 15px;
 		background-position: 0 50%;
 	}
+	.contacts__item:last-child {
+		margin-bottom: 20px;
+	}
 }
 @media screen and (min-width: 1000px) {
 }

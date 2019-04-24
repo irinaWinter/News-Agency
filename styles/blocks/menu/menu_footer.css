@@ -4,8 +4,10 @@
 		min-width: 300px;
 		width: 100%;
 		box-sizing: border-box;
-		padding: 0 25px;
+		margin: 0 25px;
 		margin-bottom: 30px;
+	}
+	.menu_footer:nth-child(odd) {
 		border-bottom: 1px solid #26354e;
 	}
 }
@@ -14,6 +16,9 @@
 		width: auto;
 		padding: 0;
 		margin-bottom: 0;
+	}
+	.menu_footer:nth-child(odd) {
+		border-bottom: none;
 	}
 	.menu_footer:nth-child(2) {
 		margin-left: auto;

@@ -2,6 +2,7 @@
 	.contacts {
 		width: 222px;
 		box-sizing: border-box;
+		margin: 0 25px;
 		display: flex;
 		align-self: flex-start;
 		flex-wrap: wrap;
@@ -11,6 +12,6 @@
 }
 @media screen and (min-width: 1000px) {
 	.contacts {
-		width: 222px;
+		margin: 0;
 	}
 }

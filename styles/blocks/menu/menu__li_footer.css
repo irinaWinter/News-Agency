@@ -2,6 +2,8 @@
 	.menu__li_footer {
 		color: #fff;
 		margin-bottom: 17px;
+		width: 50%;
+
 	}
 }
 @media screen and (min-width: 1000px) {
