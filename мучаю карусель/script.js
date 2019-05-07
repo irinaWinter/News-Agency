@@ -1,47 +1,36 @@
-    /* этот код помечает картинки, для удобства разработки */
-    var lis = document.getElementsByTagName('li');
-    for (var i = 0; i < lis.length; i++) {
-      lis[i].style.position = 'relative';
-      var span = document.createElement('span');
-      // обычно лучше использовать CSS-классы,
-      // но этот код - для удобства разработки, так что не будем трогать стили
-      span.style.cssText = 'position:absolute;left:0;top:0';
-      span.innerHTML = i + 1;
-      lis[i].appendChild(span);
-    }
-
     /* конфигурация */
-    var width = 250; // ширина изображения
-    var count = 3; // количество изображений
+    // var width = 250; // ширина изображения
+    // var count = 1; // количество изображений
 
-    var carousel = document.getElementById('carousel');
-    var list = carousel.querySelector('ul');
-    var listElems = carousel.querySelectorAll('li');
+    // var carousel = document.getElementById('carousel');
+    // var list = carousel.querySelector('ul');
+    // var listElems = carousel.querySelectorAll('li');
 
-    var position = 0; // текущий сдвиг влево
+    // var position = 0; // текущий сдвиг влево
 
-    carousel.querySelector('.prev').onclick = function() {
-      // сдвиг влево
-      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
-      position = Math.min(position + width * count, 0)
-      list.style.marginLeft = position + 'px';
-    };
+    // var field = document.querySelector('.galery__ul');
+    // var arr = document.querySelectorAll('.galery__li');
 
-    carousel.querySelector('.next').onclick = function() {
-      // сдвиг вправо
-      // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
-      position = Math.max(position - width * count, +width * (listElems.length - count));
-      list.style.marginLeft = position + 'px';
-    };
+    //  var elem = arr[0];
+    //  arr[0].onclick = function() {
+    //   field.appendChild(arr[1]);
+    //   // position = Math.min(position + width * count, 0);
+    //   list.style.marginLeft = position + 'px';
+       
+    //  }
+    //  arr[1].onclick = function() {
+    //   field.appendChild(arr[0]);
+    //   // position = Math.min(position + width * count, 0);
+    //   list.style.marginLeft = position + 'px';
+      
+    //  }
 
-    var field = document.querySelector('.galery');
-    field.onclick = function() {
-    	alert('привет');
-    	var arr = document.querySelectorAll('.galery__li');
-    	console.log(arr);
-    	var num1 = arr[0];
-    	console.log(num1);
-    	var num2 = arr[1];
-    	arr[0] = num2;
-    	arr[1] = num1;
-    }
+
+        var cont = document.querySelector('.galery__ul');
+        cont.onclick = function() {
+        cont.style.cssText = "transform: translate3d(-270px, 0, 0); \
+            transition: all 0.8s;\
+            ";
+        
+        }    
+
