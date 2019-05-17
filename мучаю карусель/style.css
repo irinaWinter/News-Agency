@@ -51,11 +51,12 @@ body {
 }
 
 .galery__ul {
+	box-sizing: border-box;
 	perspective: top right;
 	height: 400px;
 	width: 9999px;
-
-	margin: 0;
+	transition: all 0.8s;
+	margin-left: 0;
 	padding: 0;
 	list-style: none;
 	font-size: 0;

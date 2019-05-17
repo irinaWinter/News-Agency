@@ -26,11 +26,15 @@
     //  }
 
 
-        var cont = document.querySelector('.galery__ul');
-        cont.onclick = function() {
-        cont.style.cssText = "transform: translate3d(-270px, 0, 0); \
-            transition: all 0.8s;\
-            ";
-        
-        }    
+        var list = document.querySelector('.galery__ul');
+        var position = 0;
+        var width = 225;
+        list.onclick = function() {
+        	if (position === 0) {
+        		position -= width;
+        	} else { position += width}
+        	
+       		list.style.marginLeft = position + "px";
+        }
+
 
