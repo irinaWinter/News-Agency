@@ -28,7 +28,7 @@
 	.newsBlock__heading {
 		padding: 24px 20px 22px 18px;
 		display: flex;
-		width: initial;
+		width: auto;
 	}
 }
 
