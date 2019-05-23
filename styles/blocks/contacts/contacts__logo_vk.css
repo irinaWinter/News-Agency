@@ -1,8 +1,8 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.contacts__logo_vk {
 		background-image: url('../../../img/vk.svg');
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.contacts__logo_vk {
 

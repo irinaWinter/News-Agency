@@ -1,6 +1,10 @@
 .news-agency {
 	margin: 0;
 	background-color: #f9f9f9;
+	min-width: 320px;
+	/*overflow: hidden;*/
+	
+
 	
 }
 
@@ -17,10 +21,3 @@
 	box-shadow: 0 5px 10px 0 #efefef;
 }
 
-.main {
-
-
-}
-.hide {
-	display: none;
-}

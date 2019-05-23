@@ -1,7 +1,21 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.newsBlock_dailyNews {
 		order: 1;
 		background-color: #fff;
+		margin-bottom: 35px;
+	}
+/*}*/
+@media screen and (min-width: 480px) {
+	.newsBlock_dailyNews {
+		padding: 0 20px;
+
+	}
+}
+@media screen and (min-width: 768px) {
+	.newsBlock_dailyNews {
+		/*order: 0;*/
+		width: 60%;
+		padding: 0;
 	}
 }
 @media screen and (min-width: 1000px) {
@@ -9,5 +23,7 @@
 		order: 0;
 		width: 250px;
 		padding-bottom: 25px;
+		margin-bottom: 0;
+
 	}
 }

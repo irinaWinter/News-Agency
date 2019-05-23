@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.search__button {
 		width: 16px;
 		height: 16px;
@@ -11,7 +11,7 @@
 		outline: none;
 		cursor: pointer;
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.search__button {
 		position: absolute;

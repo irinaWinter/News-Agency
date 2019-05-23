@@ -1,16 +1,19 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.menu_footer {
+		box-sizing: border-box;
 		align-self: flex-start;
-		min-width: 300px;
 		width: 100%;
 		box-sizing: border-box;
 		margin: 0 25px;
 		margin-bottom: 30px;
 	}
+	.menu_footer:first-child {
+		padding-bottom: 12px;
+	}
 	.menu_footer:nth-child(odd) {
 		border-bottom: 1px solid #26354e;
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.menu_footer {
 		width: auto;

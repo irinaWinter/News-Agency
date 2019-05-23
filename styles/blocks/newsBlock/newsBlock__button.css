@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.newsBlock__button {
 		margin: 16px 25px 50px;
 		width: 100%;
@@ -11,18 +11,15 @@
 		font-size: 14px;
 		color: #448ccb;
 	}	
+/*}*/
+@media screen and (min-width: 480px) {
+	.newsBlock__button {
+		margin: 16px 20px 50px;
+	}
 }
 @media screen and (min-width: 1000px) {
 	.newsBlock__button {
 		margin: auto;
 		width: 177px;
-		height: 45px;
-		background-color: inherit;
-		outline: none;
-		border: 1px solid #448ccb;
-		border-radius: 30px;
-		font-family: "Arial", sans-serif;
-		font-size: 14px;
-		color: #448ccb;
 	}
 }

@@ -1,9 +1,9 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.news__time_main {
 		color: #fff;
 		margin-left: 18px;
 		background-image: url('../../../img/clock.svg');
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 }

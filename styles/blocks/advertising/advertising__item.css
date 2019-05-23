@@ -1,11 +1,18 @@
-@media screen and (min-width: 320px) {
-	.advertising__item {
-		
+/*@media screen and (min-width: 320px) {*/
+	.advertising__img {
+		width: 100%;
 
 	}
+/*}*/
+	.advertising__img {
+		width: 100%;
+
+	}
+@media screen and (min-width: 768px) {
+	
 }
 @media screen and (min-width: 1000px) {
-	.advertising__item {
+	.advertising__img {
 
 	}
 }

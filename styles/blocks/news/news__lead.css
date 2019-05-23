@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.news__lead {
 		display: none;
 		margin-top: 22px;
@@ -7,7 +7,7 @@
 		color: #fff;
 		line-height: 20px;
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.news__lead {
 		display: block;

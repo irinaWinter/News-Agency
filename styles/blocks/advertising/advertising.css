@@ -1,20 +1,23 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.advertising {
-		width: auto;
+		order: 1;
+		width: 100%;
+		/*max-width: 560px;*/
 		overflow: hidden;
 		box-sizing: border-box;
 		align-self: flex-start;
 		margin-left: 25px;
-
+		margin-bottom: 12px;
 	}
 	.advertising__ul {
-		transition: margin-left 0.8s;
 		order: 1;
-		width: 520px;
+		width: 9999px;
+		/*height: 9999px;*/
 		box-sizing: border-box;
 		padding: 0;
 		display: flex;
 		flex-direction: row;
+		transition: margin-left 0.8s;
 /*		display: flex;
 		flex-wrap: nowrap;*/
 	}
@@ -24,18 +27,64 @@
 		padding: 0;
 		width: 250px;
 		box-sizing: border-box;
-		background-image: url('../../../img/lexus.jpg');
-		background-size: cover;
+/*		background-image: url('../../../img/lexus.jpg');
+		background-size: cover;*/
 		margin-bottom: 20px;
 		margin-right: 20px;
 		height: 401px;
+	}
+/*}*/
+@media screen and (min-width: 480px) {
+	.advertising {
+		/*width: auto;*/
+		margin: 0 20px 12px;
+	}
+	.advertising__ul {
+		width: 100%;
+		margin: 0;
+		/*transition: none;*/
+		/*transition: margin-left 0.8s;*/
+	}
+	.advertising__li {
+		margin-right: 20px;
+		width: 50%;
+		height: auto;
+/*		min-height: 300px;
+		max-height: 500px;*/
+	}
+	.advertising__li:last-child {
+		margin-right: 0;
+	}
+}
+@media screen and (min-width: 768px) {
+	.advertising {
+		order: 0;
+		width: 37%;
+		margin: 0;
+	}
+	.advertising__ul {
+		/*width: 100%;*/
+		margin: 0;
+		transition: none;
+		flex-direction: column;
+		transition: margin-left 0.8s;
+	}
+	.advertising__li {
+		margin-right: 20px;
+		width: 100%;
+		height: auto;
+/*		min-height: 300px;
+		max-height: 500px;*/
+	}
+	.advertising__li:last-child {
+		margin-right: 0;
 	}
 }
 @media screen and (min-width: 1000px) {
 	.advertising {
 		width: auto;
 		margin-left: 0;
-
+		margin-bottom: 0;
 	}
 	.advertising__ul {
 		width: 250px;

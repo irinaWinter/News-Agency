@@ -1,9 +1,9 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.menu__list {
 		margin: 0;
 		padding: 0;
 	}
-}	
+/*}	*/
 @media screen and (min-width: 1000px) {
 	.menu__list {
 		display: flex;

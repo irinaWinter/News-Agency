@@ -1,9 +1,9 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.search {
 		position: relative;
 
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.search {
 		margin-left: 43px;

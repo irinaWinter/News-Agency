@@ -1,8 +1,8 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.contacts__logo_twitter {
 		background-image: url('../../../img/twitter.svg');
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.contacts__logo_twitter {
 

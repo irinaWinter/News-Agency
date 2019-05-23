@@ -1,5 +1,6 @@
 var menu = document.querySelector('.menu_header');
 var burger = document.querySelector('.Hamburger');
+var tagline = document.querySelector('.tagline');
 var calendar = document.querySelector('.calendar');
 var main = document.querySelector('.main');
 var footer = document.querySelector('.footer');
@@ -8,12 +9,14 @@ var footer_copyright = document.querySelector('.footer_copyright');
 burger.addEventListener('click', function() {
 	if (menu.style.display == 'block') {
 		menu.style.display = '';
+		tagline.style.display = '';
 		calendar.style.display = '';
 		main.style.display = '';
 		footer.style.display = '';
 		footer_copyright.style.display = '';
 	} else {
 		menu.style.display = 'block';
+		tagline.style.display = 'none';
 		calendar.style.display = 'none';
 		main.style.display = 'none';
 		footer.style.display = 'none';

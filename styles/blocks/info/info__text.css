@@ -1,8 +1,8 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.info__text_temp {
 		display: none;
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.info__text_temp {
 		display: block;

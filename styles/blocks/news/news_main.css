@@ -1,13 +1,21 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.news_main {
 		flex-wrap: wrap;
 		width: 100%;
-		/*height: 320px;*/
 		margin-top: 0;
-		padding: 145px 25px 30px;
-		
+		padding: 142px 25px 30px;	
 		background-position: center;
 		background-size: cover;
+	}
+/*}*/
+@media screen and (min-width: 480px) {
+	.news_main {
+		padding: 200px 20px 30px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.news_main {
+		padding: 250px 20px 42px 20px;
 	}
 }
 @media screen and (min-width: 1000px) {

@@ -1,11 +1,11 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.info__select {
 		display: none;
 	}
 	.info__select::-ms-expand {
 		display: none;
 	}
-}
+/*}*/
 @media screen and (min-width: 1000px) {
 	.info__select {
 		display: block;
@@ -24,7 +24,7 @@
 		appearance: none;
 		text-decoration: underline;
 		text-decoration-style: dashed;
-		text-underline-position: under;
+		/*text-underline-position: under;*/
 	}
 	.info__select::-ms-expand {
 		display: none;

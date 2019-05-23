@@ -1,9 +1,14 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.calendar {
 		display: flex;
-		padding: 42px 25px 37px;
+		padding: 45px 25px 38px;
 		justify-content: space-between;
 	}	
+/*}*/
+@media screen and (min-width: 480px) {
+	.calendar {
+		padding: 45px 20px 38px;
+	}
 }
 @media screen and (min-width: 1000px) {
 	.calendar {

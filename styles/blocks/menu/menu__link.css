@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {*/
 	.menu__link {
 		text-decoration: none;
 		font-family: "Arial", sans-serif;
@@ -6,7 +6,7 @@
 		color: #000;
 		letter-spacing: 0.1px;
 	}
-}	
+/*}	*/
 @media screen and (min-width: 1000px) {
 	.menu__link {
 		font-size: 15px;
