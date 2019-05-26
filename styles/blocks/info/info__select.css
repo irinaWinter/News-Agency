@@ -18,11 +18,14 @@
 		background-image: url('../../../img/down-arrow.svg');
 		background-repeat: no-repeat;
 		background-position: 100% 50%;
-		background-size: 9px;
+		background-size: 9px 9px;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		appearance: none;
 		text-decoration: underline;
+		-moz-text-decoration-style: dashed;
+		-webkit-text-decoration-style: dashed;
+
 		text-decoration-style: dashed;
 		/*text-underline-position: under;*/
 	}
